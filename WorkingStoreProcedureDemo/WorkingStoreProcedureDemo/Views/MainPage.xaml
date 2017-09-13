@@ -6,6 +6,7 @@
              x:Class="WorkingStoreProcedureDemo.Views.MainPage"
              Title="MainPage">
   <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-    <Label Text="{Binding Title}" />
-  </StackLayout>
+        <Label Text="{Binding Title}" />
+        <Button Text="Call store procedure SQL Server" Command="{Binding CallStoreProcedureCommand}" />
+    </StackLayout>
 </ContentPage>
