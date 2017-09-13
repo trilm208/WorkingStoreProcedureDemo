@@ -12,6 +12,7 @@ namespace WorkingStoreProcedureDemo
         {
             InitializeComponent();
 
+
             NavigationService.NavigateAsync("NavigationPage/MainPage?title=Hello%20from%20Xamarin.Forms");
         }
 
